@@ -1,0 +1,54 @@
+Christian Rei, 0832859, Assignment 3 OOP, Friday, November 28, 2014
+
+Testing Document
+
+Case 1: Start Time and End Time input
+
+This part of the code in the add feature is checked to see if the times
+make sense. An ending time cannot be before a starting time Also both 
+individual time inputs are checked for the proper formatting. They must 
+be integers and there must be a comma seperating each number so it can 
+be properly stored in the constructor. The method returns false right
+away if there is anything wrong with either time input after enter is
+pressed. Otherwise true is passed and the activity is added or searched
+for.
+
+Enter a starting time (year, month, day, hour, minute)
+1,1,12312 (Not a proper input, methods are used to determine this)
+Message:
+Error: Error: Input is invalid, activity not added.
+Enter a starting time (year, month, day, hour, minute)
+1,1,1,1,2 (Correct format)
+Enter an ending time (year, month, day, hour, minute)
+1,1,1,1,1 (Correct format but end time can't be less than or equal to start time)
+Error: Input is invalid, activity not added.
+Enter a starting time (year, month, day, hour, minute)
+
+Case 2: Activity ComboBox Input
+
+The choice of activity is in the form of a combo box since there is only
+three choices. This helps the user know and only be able to input things
+that would work. I put a choice called "Choose Activity" because there
+was problems starting off with one of the three choices. It could not be
+used right away because the listener hadn't gone off yet so it was
+easier to just make the user have to select something so they listener
+listens to the ComboBox. 
+
+Type: Choose Activity
+Error: Input is invalid, activity not added. (If enter is hit)
+Type: Home
+(this would work depending on the input)
+
+Case 3: Lack of input for Title
+
+Searching for an activity without the title is not logical and it was
+specified in the asssignment description that the user cannot search for
+an activity without the title. If the input in the title box is just ""
+then the lack of input will be caught otherwise all other input for
+title is acceptable.
+
+Title: 
+Error: Title must have an input.
+Title: hello
+(this would be acceptable when enter is pressed so if there is an error
+it would not be because of title)
