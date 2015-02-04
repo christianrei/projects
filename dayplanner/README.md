@@ -1,6 +1,6 @@
-Christian Rei, 0832859, Assignment 3 OOP, Friday, November 28, 2014
+##Christian Rei, 0832859, Assignment 3 OOP, Friday, November 28, 2014
 
-How to run
+###How to run
 
 Once all 7 classes are downloaded and in the same directory/project, 
 the main project in netbeans must be set to Assignment 2. The dayplanner
