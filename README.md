@@ -1,7 +1,7 @@
 ## Christian Rei -- Personal Projects
 
 ### dayplanner
-This is a day planner program I created for a university OOP class. It has a working GUI and makes use of objects and inheritance
+This is a day planner program I created for a university OOP class. It has a working GUI and makes use of objects and inheritance.
 
 ### ParameterManager
 A custom ADT for a class called Software Development and Integration. 
