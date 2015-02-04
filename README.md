@@ -1,4 +1,4 @@
-## Christian Rei -- Personal Projects
+## Christian Rei - Personal Projects
 
 ### dayplanner
 This is a day planner program I created for a university OOP class. It has a working GUI and makes use of objects and inheritance.
