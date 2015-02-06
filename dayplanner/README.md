@@ -1,4 +1,4 @@
-##Christian Rei, 0832859, Assignment 3 OOP, Friday, November 28, 2014
+##Christian Rei, Friday, November 28, 2014
 
 ###How to run
 
