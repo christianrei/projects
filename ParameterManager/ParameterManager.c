@@ -1,4 +1,4 @@
-#include "ParameterManager.h"
+#include "ParameterManager.h"         /* data structures from the .h must be included */
 
 ParameterManager * PM_create(int size);
 int PM_destroy(ParameterManager *p);
