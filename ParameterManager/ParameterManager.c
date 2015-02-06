@@ -1,11 +1,4 @@
-#include "ParameterManager.h"         /* data structures from the .h must be included */
-
-ParameterManager * PM_create(int size);
-int PM_destroy(ParameterManager *p);
-int PM_parseFrom(ParameterManager *p, FILE *fp, char comment);
-int PM_manage(ParameterManager *p, char *pname, param_t ptype, int required);
-int PM_hasValue(ParameterManager *p, char *pname);
-union param_value PM_getValue(ParameterManager *p, char *pname);
+#include "ParameterManager.h"         /* data structures and functions from the .h must be included */
 
 /* Malloc the necessary space for the Parameter Manager. More space is malloced as needed */
 ParameterManager * PM_create(int size) {
