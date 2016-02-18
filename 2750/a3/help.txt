@@ -1,0 +1,23 @@
+CIS*2750 Assignment 3, Christian Rei 0832859
+
+Dialogc.java: The main program GUI that is run and creates the other files.
+
+yadc: executable for the lex and yacc parser
+
+JNILIB.c: Incorporating the ParameterManager functions to be used in java.
+
+parseConfig.java: The file for the IDE parser and generates the new GUI.
+
+ParameterManager.c: Assignment 1 library for managing parameters.
+
+ParameterManager.h: Header file for ParameterManager.c
+
+parser.y: The yacc file.
+
+lex.l: The lex file.
+
+data.c: the data structures for the yacc parser.
+
+libJNIpm.so: The library file for JNI.
+
+The .jpeg and .png files are pictures for the Dialogc GUI.
